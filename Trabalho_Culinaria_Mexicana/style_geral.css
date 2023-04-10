@@ -1,0 +1,68 @@
+header {
+    background-image: url("Culinaria_Img.jpg");
+    background-position: top;
+    background-repeat:no-repeat;
+    
+    background-size: 100%;
+    padding: 75px;
+}
+.titulo {
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.listaPag {
+    text-align: center;
+    font-size: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.listaPag li {
+    display: inline;
+}
+
+.listaPag li a {
+    color: black;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.listacuriosidades {
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+footer {
+    background-color: green;
+    background-size: 100%;
+    padding: 30px;
+    position: relative;
+}
+.bottomright {
+    
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 20px;
+
+}
