@@ -6,6 +6,7 @@ body {
     margin: 0;
     
 }
+@media only screen and (min-width: 550px) {
 
 header {
     background-image: url("Culinaria_Img.jpg");
@@ -77,4 +78,77 @@ footer {
     right: 16px;
     font-size: 1rem;
 
+}
+}
+@media only screen and (max-width: 550px) {
+
+header {
+    background-image: url("Culinaria_Img.jpg");
+    background-position: top;
+    background-repeat:no-repeat;
+        
+    background-size: 100%;
+    padding: 15px;
+}
+.titulo {
+
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.listaPag {
+    text-align: center;
+    font-size: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.listaPag li {
+    display: inline;
+}
+
+.listaPag li a {
+    color: black;
+}
+main {
+    padding: 10px;
+} 
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.listacuriosidades {
+    font-size: 1.2rem;
+}
+p {
+    font-size: 1.2rem;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer {
+    background-color: green;
+    background-size: 100%;
+    padding: 30px;
+    position: relative;
+}
+.bottomright {
+    
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 0.9rem;
+
+}
 }
