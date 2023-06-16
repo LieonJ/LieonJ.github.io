@@ -5,11 +5,12 @@
 body {
     margin: 0;
     
+    
 }
 @media only screen and (min-width: 550px) {
 
 header {
-    background-image: url("Culinaria_Img.jpg");
+    background-color: #DEDEDE;
     background-position: top;
     background-repeat:no-repeat;
     
@@ -39,6 +40,7 @@ header {
     color: black;
 }
 main {
+    background-color: #DEDEDE;
     padding: 10px;
 } 
 h2{
