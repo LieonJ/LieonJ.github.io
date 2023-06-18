@@ -17,28 +17,7 @@ header {
     background-size: 100%;
     padding: 75px;
 }
-.titulo {
 
-    text-align: center;
-    font-size: 3rem;
-
-}
-
-.listaPag {
-    text-align: center;
-    font-size: 3rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-.listaPag li {
-    display: inline;
-}
-
-.listaPag li a {
-    color: black;
-}
 main {
     background-color: #DEDEDE;
     padding: 10px;
@@ -85,35 +64,16 @@ footer {
 @media only screen and (max-width: 550px) {
 
 header {
-    background-image: url("Culinaria_Img.jpg");
+    
     background-position: top;
     background-repeat:no-repeat;
         
     background-size: 100%;
     padding: 15px;
 }
-.titulo {
 
-    text-align: center;
-    font-size: 3rem;
 
-}
 
-.listaPag {
-    text-align: center;
-    font-size: 2rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-.listaPag li {
-    display: inline;
-}
-
-.listaPag li a {
-    color: black;
-}
 main {
     padding: 10px;
 } 
